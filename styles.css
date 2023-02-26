@@ -1,0 +1,240 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    position: relative;
+}
+
+*::-webkit-scrollbar{
+    display: none;
+}
+
+#front-loader{
+    height: 100vh;
+    width: 100%;
+    background-color: black;
+    color: #fff;
+    position: relative;
+    user-select: none;
+}
+#front-loader span{
+    overflow-y: hidden;
+}
+
+#front-loader h1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 3rem;
+}
+
+#green-sec{
+    height: 0vh;
+    width: 100vw;
+    background-color: aquamarine;
+    position: absolute;
+    left: 0;
+}
+
+#home-page{
+    height: 0vh;
+    width: 100%;
+    background-color: #dadada;
+    position: relative;
+    display:none;
+    z-index: 1111;
+}
+
+.mypic{
+    max-height: 400px;
+    min-width: 400px;
+    object-fit:cover;
+    object-position: top;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10%;
+    
+}
+
+.nav{
+    padding: 20px;
+    height: 40px;
+    margin-left: 70%;
+}
+
+.nav a{
+    margin-left: 15px;
+    text-decoration: none;
+    color: #222;
+}
+
+.design{
+    position: absolute;
+    top: 25%;
+    left:15%;
+    font-size: 7vw;
+    font-weight: 600;
+}
+
+.design:nth-of-type(2){
+    top: 45%;
+    left: 25%;
+}
+
+.green-span{
+    color: #03C988;
+}
+
+.creative{
+    font-family: 'Satisfy', cursive;
+    font-size: 5vw;
+}
+
+#home-page small{
+    position: absolute;
+    top: 35%;
+    left: 80%;
+}
+
+#about-me{
+    height: 200px;
+    width: 300px;
+    position: absolute;
+    top: 70%;
+    left: 5%;
+    padding: 10px;
+}
+
+#about-me p{
+    font-size: 25px;
+    line-height: 30px;
+}
+
+#skills{
+    height: 90%;
+    width: 100%;
+    padding: 40px;
+    position: absolute;
+    background-color: #dadada;
+    top: 100%;
+    display: none;
+}
+
+#skills h1{
+    font-size: 75px;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Gloock', serif;
+    font-weight: 400;
+}
+
+#skills p{
+    text-align: center;
+}
+
+.skill-set{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.skill-set div img{
+    max-width: 150px;
+    max-height: 150px;
+    object-fit: cover;
+}
+
+.skill-set div h4{
+    text-align: center;
+    font-size: 20px;
+}
+
+.skill-set:nth-of-type(2){
+    margin: 50px 250px;
+}
+
+#work{
+    height: 90%;
+    width: 100%;
+    position: absolute;
+    top: 190%;
+    display: none;
+    background-color: #dadada;
+    padding: 20px 50px;
+}
+
+#work h2{
+    font-size: 60px;
+    font-style: italic;
+    font-family:'Gloock', serif;
+    font-weight:100
+}
+
+#work div{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+#work div img{
+    max-width: 450px;
+    max-height: 500px;
+    border-radius: 10px;
+}
+
+#contact{
+    height: 200px;
+    background-color: black;
+    width: 100%;
+    display: none;
+    position: absolute;
+    top: 280%;
+    color: #fff;
+    padding: 20px 30px;
+}
+
+#contact h3{
+    font-size: 30px;
+    text-align: center;
+}
+
+.cnt{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px 70px;
+
+}
+
+.cnt div{
+    color: #fff;
+    position: relative;
+}
+
+.cnt div i{
+    position: absolute;
+    left: 40%;
+
+}
+.cnt div a{
+    text-decoration: none;
+    color: #fff;
+}
